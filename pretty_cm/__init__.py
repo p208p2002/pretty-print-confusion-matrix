@@ -157,8 +157,8 @@ def pretty_plot_confusion_matrix(df_cm, annot=True, cmap="Oranges", fmt='.2f', f
                     cbar=cbar, cmap=cmap, linecolor='w', fmt=fmt)
 
     #set ticklabels rotation
-    ax.set_xticklabels(ax.get_xticklabels(), rotation = 45, fontsize = 10)
-    ax.set_yticklabels(ax.get_yticklabels(), rotation = 25, fontsize = 10)
+    ax.set_xticklabels(ax.get_xticklabels(), rotation = 45, fontsize = fz)
+    ax.set_yticklabels(ax.get_yticklabels(), rotation = 25, fontsize = fz)
 
     # Turn off all the ticks
     for t in ax.xaxis.get_major_ticks():
